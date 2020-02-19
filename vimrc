@@ -19,3 +19,6 @@ cnoremap jk <C-C>
 set spell
 set spelllang=en_us,pt_pt
 set nospell
+
+" Typical backspace
+set backspace=indent,eol,start
