@@ -1,9 +1,11 @@
 " Appearance tweaks
 syntax on
+set incsearch
+set hlsearch
 set background=dark
 set number cursorline
 set statusline=%f%m%r%h%w%=\ [%Y]\ [%{&ff}]\ [%04l,%04v]\ [%L]
-set laststatus=2
+set laststatus
 
 " Quick exit mappings
 nmap Q :q! <CR>
