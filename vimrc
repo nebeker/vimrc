@@ -5,7 +5,7 @@ set hlsearch
 set background=dark
 set number cursorline
 set statusline=%f%m%r%h%w%=\ [%Y]\ [%{&ff}]\ [%04l,%04v]\ [%L]
-set laststatus
+set laststatus=2
 
 " Quick exit mappings
 nmap Q :q! <CR>
